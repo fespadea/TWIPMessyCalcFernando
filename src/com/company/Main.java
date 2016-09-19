@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,10 +10,9 @@ public class Main {
         Scanner user_input = new Scanner(System.in);
         System.out.print("Enter First Number" + "\n");
         String firstnumber = user_input.next();
-        firstnumber = firstnumber.tonum;
+        int firstint = (int)(firstnumber);
         System.out.print("Enter Second Number" + "\n");
         String secondnumber = user_input.next();
-        secondnumber = secondnumber.tonum;
         String operation;
         System.out.print("Enter Operation (+.-,/, or *)" + "\n");
         operation = user_input.next();
